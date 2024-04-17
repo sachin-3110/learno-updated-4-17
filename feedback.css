@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bigbox {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(kidwithmom.jpg);
+    background-size: cover;
+    object-position: center;
+    object-fit: fill;
+    display: flex;
+    align-items: center;
+
+}
+
+.smallbox {
+    width: 100vw;
+    height: 100vh;
+    /* padding: 20% 0% 20% 0%; */
+    background-color: rgba(205, 238, 162, 0.459);
+}
+
+.textandtick {
+    padding: 15% 0%;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.checkbox {
+    height: 60px;
+}
+
+.textandtick h1 {
+    color: rgb(59, 138, 170);
+    background-color: rgba(250, 235, 215, 0.39);
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid rgb(59, 138, 170);
+}
+
+.descp {
+    font-size: 120%;
+    width: 80vw;
+    margin-left: 5vw;
+    color: rgb(15, 127, 172);
+}
